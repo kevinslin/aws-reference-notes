@@ -1,0 +1,13 @@
+{
+  "name": "aws-reference-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kevinslin/aws-reference-notes.git",
+  "author": "Kevin <kevin@dendron.so>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/vfile": "^4.0.0",
+    "gitbook-cli": "^2.3.2",
+    "vfile": "^5.3.7"
+  }
+}
