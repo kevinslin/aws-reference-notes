@@ -5,6 +5,8 @@ created: 1683841041000
 updated: 1683841041000
 ---
 
+# Account Settings
+
 ## Viewing account settings using the console
 
 - **Important**  

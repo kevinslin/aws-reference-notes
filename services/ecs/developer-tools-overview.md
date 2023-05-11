@@ -4,6 +4,9 @@ title: Developer tools overview
 created: 1683841041000
 updated: 1683841041000
 ---
+
+# Developer tools overview 2
+
 ### Using the AWS Copilot CLI
 
 - **Note**  
