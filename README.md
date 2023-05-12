@@ -2,4 +2,4 @@ Used to have a running joke with colleagues that any part of aws documentation t
 
 This is a compilation of all **Note-able** areas of the AWS Docs, extracted from the AWS public documentation.
 
-It is a work in progress!
+It is a work in progress.
