@@ -4,19 +4,20 @@ title: Container instances
 created: 1683841041000
 updated: 1683841041000
 ---
-### Linux instances
+# Container instances
+## Linux instances
 
 - **Note**  
 Tasks using the Fargate launch type are deployed onto infrastructure managed by AWS, so this topic does not apply\.
 
 
-### Windows instances
+## Windows instances
 
 - **Note**  
 Tasks using the Fargate launch type are deployed onto infrastructure managed by AWS, so this topic does not apply\.
 
 
-### Monitoring
+## Monitoring
 
 - **Note**  
 New instance launches may take a few minutes to send data to CloudWatch Logs\.

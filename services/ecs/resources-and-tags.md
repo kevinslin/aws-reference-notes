@@ -4,13 +4,14 @@ title: Resources and tags
 created: 1683841041000
 updated: 1683841041000
 ---
-### Tagging your resources
+# Resources and tags
+## Tagging your resources
 
 - **Note**  
 If you've turned on reporting, it can take up to 24 hours before the data for the current month is available for viewing\.
 
 
-### Service quotas
+## Service quotas
 
 - **Note**  
 The default values are the initial quotas set by AWS, which are separate from the actual applied quota value and maximum possible service quota\. For more information, see [Terminology in Service Quotas](https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html#intro_getting-started) in the *Service Quotas User Guide*\.
@@ -28,7 +29,7 @@ Fargate additionally enforces Amazon ECS tasks and Amazon EKS pods launch rate l
 Amazon ECS doesn't support applied quotas\.
 
 
-### Usage Reports
+## Usage Reports
 
 - **Important**  
 The metering data is only viewable for tasks that are launched on or after November 16, 2018\. Tasks that are launched before this date don't show metering data\.
