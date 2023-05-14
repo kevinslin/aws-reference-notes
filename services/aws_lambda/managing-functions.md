@@ -5,6 +5,9 @@ created: 1683841041000
 updated: 1683841041000
 ---
 # Managing functions
+{% hint style="info" %}
+This page was generated from content adapted from [Dummy](https://docs.aws.amazon.com/ec2/index.html)
+{% endhint %}
 ## Tutorial - Lambda with CLI
 
 - **Note**  
