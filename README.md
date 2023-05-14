@@ -40,9 +40,9 @@ Each AWS Service has the following layout
 
 ## Contributing
 
-This project is hot off the press as of 2023-05-14. The plan is to make this a definite guide for ALL AWS services. I've limited it to three for now to make sure that the look and feel of the docs are consistent before expanding it out. 
+This project is hot off the press as of 2023-05-14. 
 
 All the notes in this project are auto-generated from [aws-doc-extractor](https://github.com/kevinslin/aws-doc-extractor)
-Checkout the repo for instructions on contributing. 
+See the repo for instructions on contributing. Feel free to also report any issues or feature request in this repo.  
 
-Checkout our [roadmap](https://github.com/users/kevinslin/projects/3/views/1) to see what we're working on and submit features or feature requests. 
+You can see the [roadmap](https://github.com/users/kevinslin/projects/3/views/1) to see upcoming changes. 
