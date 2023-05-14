@@ -5,9 +5,11 @@ created: 1683841041000
 updated: 1683841041000
 ---
 # Getting started
+
 {% hint style="info" %}
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/amazon-ecs-developer-guide.git)
 {% endhint %}
+
 ## Set up
 
 - **Note**  

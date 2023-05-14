@@ -5,9 +5,11 @@ created: 1683841041000
 updated: 1683841041000
 ---
 # Tutorials
+
 {% hint style="info" %}
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/amazon-ecs-developer-guide.git)
 {% endhint %}
+
 ## Tutorial: Creating a cluster with a Fargate Linux task using the AWS CLI
 
 - **Note**  

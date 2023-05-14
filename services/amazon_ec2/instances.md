@@ -5,9 +5,11 @@ created: 1683841041000
 updated: 1683841041000
 ---
 # Instances
+
 {% hint style="info" %}
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/amazon-ec2-user-guide.git)
 {% endhint %}
+
 ## Instances and AMIs
 
 - **Note**  

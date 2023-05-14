@@ -5,9 +5,11 @@ created: 1683841041000
 updated: 1683841041000
 ---
 # Lambda extensions
+
 {% hint style="info" %}
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/aws-lambda-developer-guide.git)
 {% endhint %}
+
 ## Extensions API
 
 - **Note**  
