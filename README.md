@@ -15,7 +15,7 @@ Some examples:
 
 This is a compilation of all **Note-able** areas of the AWS Docs, extracted from the AWS public documentation.
 
-I've started with just three AWS Services to make sure that the formatting and information is correct before expanding the scope to other services. 
+I've started with just a few core AWS service to make sure that the formatting and information is useful before adding all 200+ services. 
 
 ## Layout
 
