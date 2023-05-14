@@ -6,7 +6,7 @@ updated: 1683841041000
 ---
 # Security
 {% hint style="info" %}
-This page was generated from content adapted from [Dummy](https://docs.aws.amazon.com/ec2/index.html)
+This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/amazon-ec2-user-guide.git)
 {% endhint %}
 ## AWS PrivateLink
 
