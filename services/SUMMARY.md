@@ -54,3 +54,19 @@
     - [Lambda extensions](./aws_lambda/lambda-extensions.md)
     - [Lambda applications](./aws_lambda/lambda-applications.md)
     - [Orchestrating functions](./aws_lambda/orchestrating-functions.md)
+- Amazon Simple Storage Service
+  - Common
+    - [Getting started](./amazon_simple_storage_service/getting-started.md)
+    - [Tutorials](./amazon_simple_storage_service/tutorials.md)
+    - [Security](./amazon_simple_storage_service/security.md)
+    - [Monitoring Amazon S3](./amazon_simple_storage_service/monitoring-amazon-s3.md)
+    - [Developing with Amazon S3](./amazon_simple_storage_service/developing-with-amazon-s3.md)
+    - [Troubleshooting](./amazon_simple_storage_service/troubleshooting.md)
+  - Topics
+    - [Working with buckets](./amazon_simple_storage_service/working-with-buckets.md)
+    - [Working with objects](./amazon_simple_storage_service/working-with-objects.md)
+    - [Working with access points](./amazon_simple_storage_service/working-with-access-points.md)
+    - [Working with Multi-Region Access Points](./amazon_simple_storage_service/working-with-multi-region-access-points.md)
+    - [Managing storage](./amazon_simple_storage_service/managing-storage.md)
+    - [Using analytics and insights](./amazon_simple_storage_service/using-analytics-and-insights.md)
+    - [Hosting a static website](./amazon_simple_storage_service/hosting-a-static-website.md)
