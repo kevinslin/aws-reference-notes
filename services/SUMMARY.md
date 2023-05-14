@@ -4,13 +4,12 @@
 ## Services
 
 - Amazon ECS
-  - Dev
-    - [Getting started](./amazon_ecs/getting-started.md)
-    - [Tutorials](./amazon_ecs/tutorials.md)
   - Common
+    - [Getting started](./amazon_ecs/getting-started.md)
     - [Resources and tags](./amazon_ecs/resources-and-tags.md)
     - [Monitoring](./amazon_ecs/monitoring.md)
     - [Working with other services](./amazon_ecs/working-with-other-services.md)
+    - [Tutorials](./amazon_ecs/tutorials.md)
     - [Troubleshooting](./amazon_ecs/troubleshooting.md)
   - Topics
     - [Developer tools overview](./amazon_ecs/developer-tools-overview.md)
@@ -20,25 +19,25 @@
     - [Services](./amazon_ecs/services.md)
     - [Container agent endpoint](./amazon_ecs/container-agent-endpoint.md)
 - Amazon EC2
-  - Dev
   - Common
     - [Monitor](./amazon_ec2/monitor.md)
+    - [Networking](./amazon_ec2/networking.md)
     - [Security](./amazon_ec2/security.md)
     - [Resources and tags](./amazon_ec2/resources-and-tags.md)
     - [Troubleshoot](./amazon_ec2/troubleshoot.md)
   - Topics
     - [Amazon Machine Images](./amazon_ec2/amazon-machine-images.md)
     - [Instances](./amazon_ec2/instances.md)
-    - [Networking](./amazon_ec2/networking.md)
     - [Storage](./amazon_ec2/storage.md)
 - AWS Lambda
-  - Dev
   - Common
+    - [Configuring functions](./aws_lambda/configuring-functions.md)
+    - [Access permissions](./aws_lambda/access-permissions.md)
+    - [Monitoring functions](./aws_lambda/monitoring-functions.md)
     - [Troubleshooting](./aws_lambda/troubleshooting.md)
   - Topics
     - [Lambda foundations](./aws_lambda/lambda-foundations.md)
     - [Lambda runtimes](./aws_lambda/lambda-runtimes.md)
-    - [Configuring functions](./aws_lambda/configuring-functions.md)
     - [Deploying functions](./aws_lambda/deploying-functions.md)
     - [Invoking functions](./aws_lambda/invoking-functions.md)
     - [Managing functions](./aws_lambda/managing-functions.md)
@@ -51,8 +50,6 @@
     - [Building with C#](./aws_lambda/building-with-c#.md)
     - [Building with PowerShell](./aws_lambda/building-with-powershell.md)
     - [Integrating other services](./aws_lambda/integrating-other-services.md)
-    - [Access permissions](./aws_lambda/access-permissions.md)
-    - [Monitoring functions](./aws_lambda/monitoring-functions.md)
     - [Creating container images](./aws_lambda/creating-container-images.md)
     - [Lambda extensions](./aws_lambda/lambda-extensions.md)
     - [Lambda applications](./aws_lambda/lambda-applications.md)

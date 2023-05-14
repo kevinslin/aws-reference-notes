@@ -16,3 +16,33 @@ Some examples:
 This is a compilation of all **Note-able** areas of the AWS Docs, extracted from the AWS public documentation.
 
 I've started with just three AWS Services to make sure that the formatting and information is correct before expanding the scope to other services. 
+
+## Layout
+
+Each AWS Service has the following layout
+
+```
+- {service}
+    - Common
+    - Topics
+```
+
+- Common refers to docs common to all AWS services. The cover the following:
+    - Getting Started
+    - Monitoring
+    - Security
+    - Networking
+    - Configuration
+    - Troubleshooting
+    - Resources and Tags
+    - Working with other services
+- Topics cover everything that is service specific. For example, `Lambda Runtimes` are unique to the Lambda service
+
+## Contributing
+
+This project is hot off the press as of 2023-05-14. The plan is to make this a definite guide for ALL AWS services. I've limited it to three for now to make sure that the look and feel of the docs are consistent before expanding it out. 
+
+All the notes in this project are auto-generated from [aws-doc-extractor](https://github.com/kevinslin/aws-doc-extractor)
+Checkout the repo for instructions on contributing. 
+
+Checkout our [roadmap](https://github.com/users/kevinslin/projects/3/views/1) to see what we're working on and submit features or feature requests. 
