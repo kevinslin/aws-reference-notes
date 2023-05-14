@@ -22,12 +22,38 @@
 - Amazon EC2
   - Dev
   - Common
+    - [Monitor](./amazon_ec2/monitor.md)
+    - [Security](./amazon_ec2/security.md)
     - [Resources and tags](./amazon_ec2/resources-and-tags.md)
+    - [Troubleshoot](./amazon_ec2/troubleshoot.md)
   - Topics
     - [Amazon Machine Images](./amazon_ec2/amazon-machine-images.md)
     - [Instances](./amazon_ec2/instances.md)
-    - [Monitor](./amazon_ec2/monitor.md)
     - [Networking](./amazon_ec2/networking.md)
-    - [Security](./amazon_ec2/security.md)
     - [Storage](./amazon_ec2/storage.md)
-    - [Troubleshoot](./amazon_ec2/troubleshoot.md)
+- AWS Lambda
+  - Dev
+  - Common
+    - [Troubleshooting](./aws_lambda/troubleshooting.md)
+  - Topics
+    - [Lambda foundations](./aws_lambda/lambda-foundations.md)
+    - [Lambda runtimes](./aws_lambda/lambda-runtimes.md)
+    - [Configuring functions](./aws_lambda/configuring-functions.md)
+    - [Deploying functions](./aws_lambda/deploying-functions.md)
+    - [Invoking functions](./aws_lambda/invoking-functions.md)
+    - [Managing functions](./aws_lambda/managing-functions.md)
+    - [Building with Node.js](./aws_lambda/building-with-node.md)
+    - [Building with TypeScript](./aws_lambda/building-with-typescript.md)
+    - [Building with Python](./aws_lambda/building-with-python.md)
+    - [Building with Ruby](./aws_lambda/building-with-ruby.md)
+    - [Building with Java](./aws_lambda/building-with-java.md)
+    - [Building with Go](./aws_lambda/building-with-go.md)
+    - [Building with C#](./aws_lambda/building-with-c#.md)
+    - [Building with PowerShell](./aws_lambda/building-with-powershell.md)
+    - [Integrating other services](./aws_lambda/integrating-other-services.md)
+    - [Access permissions](./aws_lambda/access-permissions.md)
+    - [Monitoring functions](./aws_lambda/monitoring-functions.md)
+    - [Creating container images](./aws_lambda/creating-container-images.md)
+    - [Lambda extensions](./aws_lambda/lambda-extensions.md)
+    - [Lambda applications](./aws_lambda/lambda-applications.md)
+    - [Orchestrating functions](./aws_lambda/orchestrating-functions.md)
