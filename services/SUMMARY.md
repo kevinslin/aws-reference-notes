@@ -3,21 +3,6 @@
 
 ## Services
 
-- Amazon ECS
-  - Common
-    - [Getting started](./amazon_ecs/getting-started.md)
-    - [Resources and tags](./amazon_ecs/resources-and-tags.md)
-    - [Monitoring](./amazon_ecs/monitoring.md)
-    - [Working with other services](./amazon_ecs/working-with-other-services.md)
-    - [Tutorials](./amazon_ecs/tutorials.md)
-    - [Troubleshooting](./amazon_ecs/troubleshooting.md)
-  - Topics
-    - [Developer tools overview](./amazon_ecs/developer-tools-overview.md)
-    - [Platform versions](./amazon_ecs/platform-versions.md)
-    - [Task definitions](./amazon_ecs/task-definitions.md)
-    - [Account settings](./amazon_ecs/account-settings.md)
-    - [Services](./amazon_ecs/services.md)
-    - [Container agent endpoint](./amazon_ecs/container-agent-endpoint.md)
 - Amazon EC2
   - Common
     - [Monitor](./amazon_ec2/monitor.md)
@@ -29,6 +14,43 @@
     - [Amazon Machine Images](./amazon_ec2/amazon-machine-images.md)
     - [Instances](./amazon_ec2/instances.md)
     - [Storage](./amazon_ec2/storage.md)
+- Amazon S3
+  - Common
+    - [Getting started](./amazon_s3/getting-started.md)
+    - [Tutorials](./amazon_s3/tutorials.md)
+    - [Security](./amazon_s3/security.md)
+    - [Monitoring Amazon S3](./amazon_s3/monitoring-amazon-s3.md)
+    - [Developing with Amazon S3](./amazon_s3/developing-with-amazon-s3.md)
+    - [Troubleshooting](./amazon_s3/troubleshooting.md)
+  - Topics
+    - [Working with buckets](./amazon_s3/working-with-buckets.md)
+    - [Working with objects](./amazon_s3/working-with-objects.md)
+    - [Working with access points](./amazon_s3/working-with-access-points.md)
+    - [Working with Multi-Region Access Points](./amazon_s3/working-with-multi-region-access-points.md)
+    - [Managing storage](./amazon_s3/managing-storage.md)
+    - [Using analytics and insights](./amazon_s3/using-analytics-and-insights.md)
+    - [Hosting a static website](./amazon_s3/hosting-a-static-website.md)
+- Amazon RDS
+  - Common
+    - [Getting started](./amazon_rds/getting-started.md)
+    - [Configuring a DB instance](./amazon_rds/configuring-a-db-instance.md)
+    - [Configuring and managing a Multi-AZ deployment](./amazon_rds/configuring-and-managing-a-multi-az-deployment.md)
+    - [Monitoring metrics in a DB instance](./amazon_rds/monitoring-metrics-in-a-db-instance.md)
+    - [Monitoring events, logs, and database activity streams](./amazon_rds/monitoring-events,-logs,-and-database-activity-streams.md)
+    - [Security](./amazon_rds/security.md)
+  - Topics
+    - [What is Amazon RDS?](./amazon_rds/what-is-amazon-rds?.md)
+    - [Managing a DB instance](./amazon_rds/managing-a-db-instance.md)
+    - [Using Blue/Green Deployments for database updates](./green-deployments-for-database-updates/md.md)
+    - [Backing up and restoring](./amazon_rds/backing-up-and-restoring.md)
+    - [Working with Amazon RDS Custom](./amazon_rds/working-with-amazon-rds-custom.md)
+    - [Working with RDS on AWS Outposts](./amazon_rds/working-with-rds-on-aws-outposts.md)
+    - [Using RDS Proxy](./amazon_rds/using-rds-proxy.md)
+    - [MariaDB on Amazon RDS](./amazon_rds/mariadb-on-amazon-rds.md)
+    - [Microsoft SQL Server on Amazon RDS](./amazon_rds/microsoft-sql-server-on-amazon-rds.md)
+    - [MySQL on Amazon RDS](./amazon_rds/mysql-on-amazon-rds.md)
+    - [Oracle on Amazon RDS](./amazon_rds/oracle-on-amazon-rds.md)
+    - [PostgreSQL on Amazon RDS](./amazon_rds/postgresql-on-amazon-rds.md)
 - AWS Lambda
   - Common
     - [Configuring functions](./aws_lambda/configuring-functions.md)
@@ -54,19 +76,18 @@
     - [Lambda extensions](./aws_lambda/lambda-extensions.md)
     - [Lambda applications](./aws_lambda/lambda-applications.md)
     - [Orchestrating functions](./aws_lambda/orchestrating-functions.md)
-- Amazon Simple Storage Service
+- Amazon ECS
   - Common
-    - [Getting started](./amazon_simple_storage_service/getting-started.md)
-    - [Tutorials](./amazon_simple_storage_service/tutorials.md)
-    - [Security](./amazon_simple_storage_service/security.md)
-    - [Monitoring Amazon S3](./amazon_simple_storage_service/monitoring-amazon-s3.md)
-    - [Developing with Amazon S3](./amazon_simple_storage_service/developing-with-amazon-s3.md)
-    - [Troubleshooting](./amazon_simple_storage_service/troubleshooting.md)
+    - [Getting started](./amazon_ecs/getting-started.md)
+    - [Resources and tags](./amazon_ecs/resources-and-tags.md)
+    - [Monitoring](./amazon_ecs/monitoring.md)
+    - [Working with other services](./amazon_ecs/working-with-other-services.md)
+    - [Tutorials](./amazon_ecs/tutorials.md)
+    - [Troubleshooting](./amazon_ecs/troubleshooting.md)
   - Topics
-    - [Working with buckets](./amazon_simple_storage_service/working-with-buckets.md)
-    - [Working with objects](./amazon_simple_storage_service/working-with-objects.md)
-    - [Working with access points](./amazon_simple_storage_service/working-with-access-points.md)
-    - [Working with Multi-Region Access Points](./amazon_simple_storage_service/working-with-multi-region-access-points.md)
-    - [Managing storage](./amazon_simple_storage_service/managing-storage.md)
-    - [Using analytics and insights](./amazon_simple_storage_service/using-analytics-and-insights.md)
-    - [Hosting a static website](./amazon_simple_storage_service/hosting-a-static-website.md)
+    - [Developer tools overview](./amazon_ecs/developer-tools-overview.md)
+    - [Platform versions](./amazon_ecs/platform-versions.md)
+    - [Task definitions](./amazon_ecs/task-definitions.md)
+    - [Account settings](./amazon_ecs/account-settings.md)
+    - [Services](./amazon_ecs/services.md)
+    - [Container agent endpoint](./amazon_ecs/container-agent-endpoint.md)
