@@ -30,6 +30,23 @@
     - [Managing storage](./amazon_s3/managing-storage.md)
     - [Using analytics and insights](./amazon_s3/using-analytics-and-insights.md)
     - [Hosting a static website](./amazon_s3/hosting-a-static-website.md)
+- Amazon Aurora
+  - Common
+    - [Getting started](./amazon_aurora/getting-started.md)
+    - [Configuring your Aurora DB cluster](./amazon_aurora/configuring-your-aurora-db-cluster.md)
+    - [Monitoring metrics in an Aurora DB cluster](./amazon_aurora/monitoring-metrics-in-an-aurora-db-cluster.md)
+    - [Monitoring events, logs, and database activity streams](./amazon_aurora/monitoring-events,-logs,-and-database-activity-streams.md)
+    - [Security](./amazon_aurora/security.md)
+  - Topics
+    - [What is Aurora?](./amazon_aurora/what-is-aurora?.md)
+    - [Managing an Aurora DB cluster](./amazon_aurora/managing-an-aurora-db-cluster.md)
+    - [Using Blue/Green Deployments for database updates](./green-deployments-for-database-updates/md.md)
+    - [Backing up and restoring an Aurora DB cluster](./amazon_aurora/backing-up-and-restoring-an-aurora-db-cluster.md)
+    - [Working with Aurora MySQL](./amazon_aurora/working-with-aurora-mysql.md)
+    - [Working with Aurora PostgreSQL](./amazon_aurora/working-with-aurora-postgresql.md)
+    - [Using RDS Proxy](./amazon_aurora/using-rds-proxy.md)
+    - [Using Aurora Serverless v2](./amazon_aurora/using-aurora-serverless-v2.md)
+    - [Using Aurora Serverless v1](./amazon_aurora/using-aurora-serverless-v1.md)
 - Amazon RDS
   - Common
     - [Getting started](./amazon_rds/getting-started.md)
@@ -76,6 +93,63 @@
     - [Lambda extensions](./aws_lambda/lambda-extensions.md)
     - [Lambda applications](./aws_lambda/lambda-applications.md)
     - [Orchestrating functions](./aws_lambda/orchestrating-functions.md)
+- Amazon SageMaker
+  - Common
+    - [Security](./amazon_sage_maker/security.md)
+    - [Monitoring](./amazon_sage_maker/monitoring.md)
+  - Topics
+    - [What Is Amazon SageMaker?](./amazon_sage_maker/what-is-amazon-sagemaker?.md)
+    - [Get Started](./amazon_sage_maker/get-started.md)
+    - [Machine Learning Environments](./amazon_sage_maker/machine-learning-environments.md)
+    - [Autopilot: Automated ML](./amazon_sage_maker/autopilot:-automated-ml.md)
+    - [Label Data](./amazon_sage_maker/label-data.md)
+    - [Prepare and Analyze Datasets](./amazon_sage_maker/prepare-and-analyze-datasets.md)
+    - [Create, Store, and Share Features](./amazon_sage_maker/create,-store,-and-share-features.md)
+    - [Training](./amazon_sage_maker/training.md)
+    - [Deploy Models for Inference](./amazon_sage_maker/deploy-models-for-inference.md)
+    - [Docker containers with SageMaker](./amazon_sage_maker/docker-containers-with-sagemaker.md)
+    - [Augmented AI](./amazon_sage_maker/augmented-ai.md)
+    - [Marketplace](./amazon_sage_maker/marketplace.md)
+- AWS App Runner
+  - Common
+    - [Networking](./aws_app_runner/networking.md)
+  - Topics
+    - [Managing your service](./aws_app_runner/managing-your-service.md)
+    - [Observability](./aws_app_runner/observability.md)
+    - [App Runner configuration file](./aws_app_runner/app-runner-configuration-file.md)
+    - [App Runner API](./aws_app_runner/app-runner-api.md)
+- Amazon EC2 Image Builder
+  - Common
+  - Topics
+    - [Get started](./amazon_ec2_image_builder/get-started.md)
+    - [AWSTOE component manager](./amazon_ec2_image_builder/awstoe-component-manager.md)
+    - [Manage resources](./amazon_ec2_image_builder/manage-resources.md)
+    - [Manage pipelines](./amazon_ec2_image_builder/manage-pipelines.md)
+    - [Integrate products and services](./amazon_ec2_image_builder/integrate-products-and-services.md)
+    - [Security in EC2 Image Builder](./amazon_ec2_image_builder/security-in-ec2-image-builder.md)
+- AWS ParallelCluster
+  - Common
+  - Topics
+    - [AWS ParallelCluster version 2](./aws_parallel_cluster/aws-parallelcluster-version-2.md)
+- AWS Serverless Application Model (AWS SAM)
+  - Common
+    - [Getting started](./aws_serverless_application_model_aws_sam/getting-started.md)
+    - [Monitoring](./aws_serverless_application_model_aws_sam/monitoring.md)
+  - Topics
+    - [AWS SAM specification](./aws_serverless_application_model_aws_sam/aws-sam-specification.md)
+    - [Authoring](./aws_serverless_application_model_aws_sam/authoring.md)
+    - [Building](./aws_serverless_application_model_aws_sam/building.md)
+    - [Testing and debugging](./aws_serverless_application_model_aws_sam/testing-and-debugging.md)
+    - [Deploying](./aws_serverless_application_model_aws_sam/deploying.md)
+    - [Publishing](./aws_serverless_application_model_aws_sam/publishing.md)
+    - [Example applications](./aws_serverless_application_model_aws_sam/example-applications.md)
+    - [AWS CDK](./aws_serverless_application_model_aws_sam/aws-cdk.md)
+    - [AWS SAM reference](./aws_serverless_application_model_aws_sam/aws-sam-reference.md)
+- AWS Serverless Application Repository
+  - Common
+  - Topics
+    - [Publishing Applications](./aws_serverless_application_repository/publishing-applications.md)
+    - [Deploying Applications](./aws_serverless_application_repository/deploying-applications.md)
 - Amazon ECS
   - Common
     - [Getting started](./amazon_ecs/getting-started.md)
@@ -86,8 +160,33 @@
     - [Troubleshooting](./amazon_ecs/troubleshooting.md)
   - Topics
     - [Developer tools overview](./amazon_ecs/developer-tools-overview.md)
-    - [Platform versions](./amazon_ecs/platform-versions.md)
+    - [Clusters](./amazon_ecs/clusters.md)
     - [Task definitions](./amazon_ecs/task-definitions.md)
     - [Account settings](./amazon_ecs/account-settings.md)
+    - [Container instances](./amazon_ecs/container-instances.md)
+    - [Container agent](./amazon_ecs/container-agent.md)
+    - [Scheduling tasks](./amazon_ecs/scheduling-tasks.md)
     - [Services](./amazon_ecs/services.md)
-    - [Container agent endpoint](./amazon_ecs/container-agent-endpoint.md)
+- Amazon EFS
+  - Common
+    - [Getting started](./amazon_efs/getting-started.md)
+    - [Security](./amazon_efs/security.md)
+  - Topics
+    - [Working with EFS resources](./amazon_efs/working-with-efs-resources.md)
+    - [Using amazon-efs-utils](./amazon_efs/using-amazon-efs-utils.md)
+    - [Mounting file systems](./amazon_efs/mounting-file-systems.md)
+    - [Transferring data](./amazon_efs/transferring-data.md)
+    - [Managing file systems](./amazon_efs/managing-file-systems.md)
+    - [EFS backups](./amazon_efs/efs-backups.md)
+    - [Walkthroughs](./amazon_efs/walkthroughs.md)
+    - [Troubleshooting Amazon EFS](./amazon_efs/troubleshooting-amazon-efs.md)
+    - [Additional information](./amazon_efs/additional-information.md)
+- Amazon S3 Glacier
+  - Common
+    - [Getting Started](./amazon_s3_glacier/getting-started.md)
+  - Topics
+    - [What Is Amazon S3 Glacier?](./amazon_s3_glacier/what-is-amazon-s3-glacier?.md)
+    - [Working with Vaults](./amazon_s3_glacier/working-with-vaults.md)
+    - [Working with Archives](./amazon_s3_glacier/working-with-archives.md)
+    - [Using the AWS SDKs](./amazon_s3_glacier/using-the-aws-sdks.md)
+    - [API Reference](./amazon_s3_glacier/api-reference.md)

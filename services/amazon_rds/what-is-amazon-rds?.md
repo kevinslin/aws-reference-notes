@@ -10,32 +10,6 @@ updated: 1683841041000
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/amazon-rds-user-guide.git)
 {% endhint %}
 
-## DB instances
-
-- **Note**  
-Amazon RDS supports access to databases using any standard SQL client application\. Amazon RDS does not allow direct host access\.
-- **Note**  
-If your application requires more DB instances, you can request additional DB instances by using [this form](https://console.aws.amazon.com/support/home#/case/create?issueType=service-limit-increase&limitType=service-code-rds-instances)\.
-- **Note**  
-This guide covers non\-Aurora Amazon RDS database engines\. For information about using Amazon Aurora, see the [https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)\.
-
-
-## DB instance classes
-
-- **Note**  
-The DB instance classes that use the AWS Nitro System \(db\.m5, db\.r5, db\.t3\) are throttled on combined read plus write workload\.
-- **Note**  
-When you perform operations with the AWS CLI, it automatically shows the supported DB instance classes for a specific DB engine, DB engine version, and AWS Region\. Examples of the operations that you can perform include creating and modifying a DB instance\.
-- **Note**  
-To limit the output, these examples show results only for the General Purpose SSD \(`gp2`\) storage type\. If necessary, you can change the storage type to General Purpose SSD \(`gp3`\), Provisioned IOPS \(`io1`\), or magnetic \(`standard`\) in the commands\.
-- **Note**  
-Each vCPU is a hyperthread of an Intel Xeon CPU core\.
-- **Note**  
-You can use AWS CloudTrail to monitor and audit changes to the process configuration of Amazon RDS for Oracle DB instances\. For more information about using CloudTrail, see [Monitoring Amazon RDS API calls in AWS CloudTrail](logging-using-cloudtrail.md)\.
-- **Note**  
-When you modify a DB instance to configure the number of CPU cores or threads per core, there is a brief DB instance outage\.
-
-
 ## DB instance storage
 
 - **Important**  

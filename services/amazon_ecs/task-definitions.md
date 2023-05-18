@@ -24,6 +24,26 @@ This parameter is not supported for Windows containers or tasks using the Fargat
 This parameter is not supported for Windows containers or tasks using the Fargate launch type\.
 
 
+## Working with GPUs on Amazon ECS
+
+- **Important**  
+If your GPU requirements aren't specified in the task definition, the task uses the default Docker runtime\.
+
+
+## Using video transcoding on Amazon ECS
+
+- **Note**  
+For instructions on how to run video transcoding workloads in containers other than Amazon ECS, see the [Xilinx documentation](https://xilinx.github.io/video-sdk/v1.5/container_setup.html#working-with-docker-vt1)\.
+- **Important**  
+If the task definition lists devices that the EC2 instance doesn't have, the task fails to run\. When the task fails, the following error message appears in the `stoppedReason`: `CannotStartContainerError: Error response from daemon: error gathering device information while adding custom device "/dev/dri/renderD130": no such file or directory`\.
+
+
+## Task networking
+
+- **Important**  
+If you're using Amazon ECS tasks hosted on AWS Fargate, see [Fargate task networking](https://docs.aws.amazon.com/AmazonECS/latest/userguide/fargate-task-networking.html) in the *Amazon Elastic Container Service User Guide for AWS Fargate* for networking information that's relevant to your instances\.
+
+
 ## Using the awslogs log driver
 
 - **Note**  
