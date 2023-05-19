@@ -193,9 +193,6 @@
     - [Using your model on an edge device](./amazon_lookout_for_vision/using-your-model-on-an-edge-device.md)
     - [Managing your resources](./amazon_lookout_for_vision/managing-your-resources.md)
     - [Example code and datasets](./amazon_lookout_for_vision/example-code-and-datasets.md)
-- Amazon Monitron
-  - Common
-  - Topics
 - Amazon Personalize
   - Common
   - Topics
@@ -252,9 +249,6 @@
     - [Join a race](./aws_deep_racer/join-a-race.md)
     - [Tagging](./aws_deep_racer/tagging.md)
     - [Troubleshoot common issues](./aws_deep_racer/troubleshoot-common-issues.md)
-- Amazon Machine Learning
-  - Common
-  - Topics
 ## Containers
 - AWS App Runner
   - Common
@@ -327,9 +321,6 @@
     - [View, export & explore data](./aws_application_discovery_service/view,-export-&-explore-data.md)
     - [Console Walkthroughs](./aws_application_discovery_service/console-walkthroughs.md)
     - [Appendix](./aws_application_discovery_service/appendix.md)
-- AWS Application Migration Service
-  - Common
-  - Topics
 - AWS Migration Hub
   - Common
     - [Getting started](./aws_migration_hub/getting-started.md)
@@ -346,9 +337,6 @@
     - [Managing servers](./aws_transfer_family/managing-servers.md)
     - [API reference](./aws_transfer_family/api-reference.md)
 ## Security, Identity, & Compliance
-- AWS Directory Service
-  - Common
-  - Topics
 - AWS IAM Identity Center (successor to AWS Single Sign-On)
   - Common
     - [Getting started](./aws_iam_identity_center_successor_to_aws_single_sign_on/getting-started.md)
@@ -416,12 +404,6 @@
   - Common
   - Topics
     - [Resource groups](./aws_resource_groups/resource-groups.md)
-- AWS Service Catalog
-  - Common
-  - Topics
-- Service Quotas
-  - Common
-  - Topics
 ## Networking & Content Delivery
 - Amazon API Gateway
   - Common
@@ -452,9 +434,6 @@
     - [Registering and managing domains](./amazon_route_53/registering-and-managing-domains.md)
     - [Routing internet traffic to your AWS resources](./amazon_route_53/routing-internet-traffic-to-your-aws-resources.md)
     - [Creating health checks and configuring DNS failover](./amazon_route_53/creating-health-checks-and-configuring-dns-failover.md)
-- AWS VPN
-  - Common
-  - Topics
 ## Application Integration
 - AWS Step Functions
   - Common
@@ -508,9 +487,6 @@
     - [Working with application revisions](./aws_code_deploy/working-with-application-revisions.md)
     - [Working with deployments](./aws_code_deploy/working-with-deployments.md)
     - [Reference](./aws_code_deploy/reference.md)
-- Amazon CodeWhisperer
-  - Common
-  - Topics
 - AWS X-Ray
   - Common
     - [Security](./aws_x_ray/security.md)
@@ -534,9 +510,6 @@
     - [Securing Your Content](./amazon_elastic_transcoder/securing-your-content.md)
     - [API Reference](./amazon_elastic_transcoder/api-reference.md)
 ## Internet of Things (IoT)
-- AWS IoT Analytics
-  - Common
-  - Topics
 - AWS IoT Events
   - Common
     - [Tutorials](./aws_iot_events/tutorials.md)
@@ -579,9 +552,6 @@
     - [Logging and monitoring](./aws_iot_site_wise/logging-and-monitoring.md)
     - [Endpoints and quotas](./aws_iot_site_wise/endpoints-and-quotas.md)
 ## Business Applications
-- Amazon Pinpoint
-  - Common
-  - Topics
 - Amazon Chime SDK
   - Common
   - Topics
@@ -589,9 +559,6 @@
     - [Using Amazon Chime SDK meetings](./amazon_chime_sdk/using-amazon-chime-sdk-meetings.md)
     - [Using Amazon Chime SDK messaging](./amazon_chime_sdk/using-amazon-chime-sdk-messaging.md)
 ## End User Computing
-- NICE DCV
-  - Common
-  - Topics
 ## Analytics
 - Amazon CloudSearch
   - Common
