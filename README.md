@@ -2,24 +2,15 @@
 
 <figure><img src="assets/images/cloud-ref-notes.png" alt="Cloud Reference Notes", height="400px" </figure>
 
-I used to have a running joke with colleagues that any part of the aws documentation that started with a **Note** was simply footgun waiting to blow up. 
+AWS Reference Notes is a compilation of the **Note-able** sections of AWS services[^1].
 
-These footguns came in the form of technical considerations, exceptions, and caveats that would take anywhere between an hour or a month to work around. 
+It is compiled by parsing all sections of [AWS Documentation](https://docs.aws.amazon.com/) and extracting specific admonitions (eg. **Note**, **Important**, **Considerations**) which are then organized and compiled here. 
 
-Some examples:
-- when provisioning anything via cloudformation/cdk/terraform, reverse engineering what IAM permissions, security groups, versions, and other settings needed to be in place to have a successful deployment
-- service limits 
-- cross account restrictions
-- limitations when integrating different services
-- caveats around emitted metrics
-
-This is a compilation of all **Note-able** areas of the AWS Docs, extracted from the AWS public documentation.
-
-I've started with just a few core AWS service to make sure that the formatting and information is useful before adding all 200+ services. 
+AWS Reference Notes exists because I observed that any section of the AWS docs that start with a **Note** was something that was worth paying attention to. These sections documented gotchas, limits, and other caveats of a particular service. When not observed, they can take anywhere on the order of hours to weeks to work around. 
 
 ## Layout
 
-Each AWS Service has the following layout
+Each AWS Service is organized via the following categories
 
 ```
 - {service}
@@ -27,16 +18,27 @@ Each AWS Service has the following layout
     - Topics
 ```
 
-- Common refers to docs common to all AWS services. The cover the following:
-    - Getting Started
-    - Monitoring
-    - Security
-    - Networking
-    - Configuration
-    - Troubleshooting
-    - Resources and Tags
-    - Working with other services
-- Topics cover everything that is service specific. For example, `Lambda Runtimes` are unique to the Lambda service
+### Common
+
+Common refers to parts of an AWS service that is shared among all services. 
+Examples of `Common` sections:
+
+- Getting Started
+- Monitoring
+- Security
+- Networking
+- Configuration
+- Troubleshooting
+- Resources and Tags
+- Working with other services
+
+### Topics
+Topics refers to parts of an AWS service that is service specific. This includes service specific components, features, and runtimes. 
+
+Examples of `Topics` sections:
+- ECS Clusters
+- S3 Clacier Vaults
+- KMS Keys
 
 ## Contributing
 
@@ -46,3 +48,5 @@ All the notes in this project are auto-generated from [aws-doc-extractor](https:
 See the repo for instructions on contributing. Feel free to also report any issues or feature request in this repo.  
 
 You can see the [roadmap](https://github.com/users/kevinslin/projects/3/views/1) to see upcoming changes. 
+
+[^1]: NOTE: AWS Reference Notes currently has 66 services respresented
