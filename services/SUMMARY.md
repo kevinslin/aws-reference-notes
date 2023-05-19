@@ -1,8 +1,8 @@
 ## About
 - [README](./../README.md)
 
-## Services
 
+## Compute
 - Amazon EC2
   - Common
     - [Monitor](./amazon_ec2/monitor.md)
@@ -14,6 +14,39 @@
     - [Amazon Machine Images](./amazon_ec2/amazon-machine-images.md)
     - [Instances](./amazon_ec2/instances.md)
     - [Storage](./amazon_ec2/storage.md)
+- Amazon EC2 Image Builder
+  - Common
+  - Topics
+    - [Get started](./amazon_ec2_image_builder/get-started.md)
+    - [AWSTOE component manager](./amazon_ec2_image_builder/awstoe-component-manager.md)
+    - [Manage resources](./amazon_ec2_image_builder/manage-resources.md)
+    - [Manage pipelines](./amazon_ec2_image_builder/manage-pipelines.md)
+    - [Integrate products and services](./amazon_ec2_image_builder/integrate-products-and-services.md)
+    - [Security in EC2 Image Builder](./amazon_ec2_image_builder/security-in-ec2-image-builder.md)
+- AWS ParallelCluster
+  - Common
+  - Topics
+    - [AWS ParallelCluster version 2](./aws_parallel_cluster/aws-parallelcluster-version-2.md)
+- AWS Serverless Application Model (AWS SAM)
+  - Common
+    - [Getting started](./aws_serverless_application_model_aws_sam/getting-started.md)
+    - [Monitoring](./aws_serverless_application_model_aws_sam/monitoring.md)
+  - Topics
+    - [AWS SAM specification](./aws_serverless_application_model_aws_sam/aws-sam-specification.md)
+    - [Authoring](./aws_serverless_application_model_aws_sam/authoring.md)
+    - [Building](./aws_serverless_application_model_aws_sam/building.md)
+    - [Testing and debugging](./aws_serverless_application_model_aws_sam/testing-and-debugging.md)
+    - [Deploying](./aws_serverless_application_model_aws_sam/deploying.md)
+    - [Publishing](./aws_serverless_application_model_aws_sam/publishing.md)
+    - [Example applications](./aws_serverless_application_model_aws_sam/example-applications.md)
+    - [AWS CDK](./aws_serverless_application_model_aws_sam/aws-cdk.md)
+    - [AWS SAM reference](./aws_serverless_application_model_aws_sam/aws-sam-reference.md)
+- AWS Serverless Application Repository
+  - Common
+  - Topics
+    - [Publishing Applications](./aws_serverless_application_repository/publishing-applications.md)
+    - [Deploying Applications](./aws_serverless_application_repository/deploying-applications.md)
+## Serverless
 - Amazon S3
   - Common
     - [Getting started](./amazon_s3/getting-started.md)
@@ -30,6 +63,32 @@
     - [Managing storage](./amazon_s3/managing-storage.md)
     - [Using analytics and insights](./amazon_s3/using-analytics-and-insights.md)
     - [Hosting a static website](./amazon_s3/hosting-a-static-website.md)
+- AWS Lambda
+  - Common
+    - [Configuring functions](./aws_lambda/configuring-functions.md)
+    - [Access permissions](./aws_lambda/access-permissions.md)
+    - [Monitoring functions](./aws_lambda/monitoring-functions.md)
+    - [Troubleshooting](./aws_lambda/troubleshooting.md)
+  - Topics
+    - [Lambda foundations](./aws_lambda/lambda-foundations.md)
+    - [Lambda runtimes](./aws_lambda/lambda-runtimes.md)
+    - [Deploying functions](./aws_lambda/deploying-functions.md)
+    - [Invoking functions](./aws_lambda/invoking-functions.md)
+    - [Managing functions](./aws_lambda/managing-functions.md)
+    - [Building with Node.js](./aws_lambda/building-with-node.md)
+    - [Building with TypeScript](./aws_lambda/building-with-typescript.md)
+    - [Building with Python](./aws_lambda/building-with-python.md)
+    - [Building with Ruby](./aws_lambda/building-with-ruby.md)
+    - [Building with Java](./aws_lambda/building-with-java.md)
+    - [Building with Go](./aws_lambda/building-with-go.md)
+    - [Building with C#](./aws_lambda/building-with-c#.md)
+    - [Building with PowerShell](./aws_lambda/building-with-powershell.md)
+    - [Integrating other services](./aws_lambda/integrating-other-services.md)
+    - [Creating container images](./aws_lambda/creating-container-images.md)
+    - [Lambda extensions](./aws_lambda/lambda-extensions.md)
+    - [Lambda applications](./aws_lambda/lambda-applications.md)
+    - [Orchestrating functions](./aws_lambda/orchestrating-functions.md)
+## Database
 - Amazon Aurora
   - Common
     - [Getting started](./amazon_aurora/getting-started.md)
@@ -68,31 +127,7 @@
     - [MySQL on Amazon RDS](./amazon_rds/mysql-on-amazon-rds.md)
     - [Oracle on Amazon RDS](./amazon_rds/oracle-on-amazon-rds.md)
     - [PostgreSQL on Amazon RDS](./amazon_rds/postgresql-on-amazon-rds.md)
-- AWS Lambda
-  - Common
-    - [Configuring functions](./aws_lambda/configuring-functions.md)
-    - [Access permissions](./aws_lambda/access-permissions.md)
-    - [Monitoring functions](./aws_lambda/monitoring-functions.md)
-    - [Troubleshooting](./aws_lambda/troubleshooting.md)
-  - Topics
-    - [Lambda foundations](./aws_lambda/lambda-foundations.md)
-    - [Lambda runtimes](./aws_lambda/lambda-runtimes.md)
-    - [Deploying functions](./aws_lambda/deploying-functions.md)
-    - [Invoking functions](./aws_lambda/invoking-functions.md)
-    - [Managing functions](./aws_lambda/managing-functions.md)
-    - [Building with Node.js](./aws_lambda/building-with-node.md)
-    - [Building with TypeScript](./aws_lambda/building-with-typescript.md)
-    - [Building with Python](./aws_lambda/building-with-python.md)
-    - [Building with Ruby](./aws_lambda/building-with-ruby.md)
-    - [Building with Java](./aws_lambda/building-with-java.md)
-    - [Building with Go](./aws_lambda/building-with-go.md)
-    - [Building with C#](./aws_lambda/building-with-c#.md)
-    - [Building with PowerShell](./aws_lambda/building-with-powershell.md)
-    - [Integrating other services](./aws_lambda/integrating-other-services.md)
-    - [Creating container images](./aws_lambda/creating-container-images.md)
-    - [Lambda extensions](./aws_lambda/lambda-extensions.md)
-    - [Lambda applications](./aws_lambda/lambda-applications.md)
-    - [Orchestrating functions](./aws_lambda/orchestrating-functions.md)
+## Machine Learning
 - Amazon SageMaker
   - Common
     - [Security](./amazon_sage_maker/security.md)
@@ -110,146 +145,6 @@
     - [Docker containers with SageMaker](./amazon_sage_maker/docker-containers-with-sagemaker.md)
     - [Augmented AI](./amazon_sage_maker/augmented-ai.md)
     - [Marketplace](./amazon_sage_maker/marketplace.md)
-- AWS App Runner
-  - Common
-    - [Networking](./aws_app_runner/networking.md)
-  - Topics
-    - [Managing your service](./aws_app_runner/managing-your-service.md)
-    - [Observability](./aws_app_runner/observability.md)
-    - [App Runner configuration file](./aws_app_runner/app-runner-configuration-file.md)
-    - [App Runner API](./aws_app_runner/app-runner-api.md)
-- Amazon EC2 Image Builder
-  - Common
-  - Topics
-    - [Get started](./amazon_ec2_image_builder/get-started.md)
-    - [AWSTOE component manager](./amazon_ec2_image_builder/awstoe-component-manager.md)
-    - [Manage resources](./amazon_ec2_image_builder/manage-resources.md)
-    - [Manage pipelines](./amazon_ec2_image_builder/manage-pipelines.md)
-    - [Integrate products and services](./amazon_ec2_image_builder/integrate-products-and-services.md)
-    - [Security in EC2 Image Builder](./amazon_ec2_image_builder/security-in-ec2-image-builder.md)
-- AWS ParallelCluster
-  - Common
-  - Topics
-    - [AWS ParallelCluster version 2](./aws_parallel_cluster/aws-parallelcluster-version-2.md)
-- AWS Serverless Application Model (AWS SAM)
-  - Common
-    - [Getting started](./aws_serverless_application_model_aws_sam/getting-started.md)
-    - [Monitoring](./aws_serverless_application_model_aws_sam/monitoring.md)
-  - Topics
-    - [AWS SAM specification](./aws_serverless_application_model_aws_sam/aws-sam-specification.md)
-    - [Authoring](./aws_serverless_application_model_aws_sam/authoring.md)
-    - [Building](./aws_serverless_application_model_aws_sam/building.md)
-    - [Testing and debugging](./aws_serverless_application_model_aws_sam/testing-and-debugging.md)
-    - [Deploying](./aws_serverless_application_model_aws_sam/deploying.md)
-    - [Publishing](./aws_serverless_application_model_aws_sam/publishing.md)
-    - [Example applications](./aws_serverless_application_model_aws_sam/example-applications.md)
-    - [AWS CDK](./aws_serverless_application_model_aws_sam/aws-cdk.md)
-    - [AWS SAM reference](./aws_serverless_application_model_aws_sam/aws-sam-reference.md)
-- AWS Serverless Application Repository
-  - Common
-  - Topics
-    - [Publishing Applications](./aws_serverless_application_repository/publishing-applications.md)
-    - [Deploying Applications](./aws_serverless_application_repository/deploying-applications.md)
-- Amazon ECS
-  - Common
-    - [Getting started](./amazon_ecs/getting-started.md)
-    - [Resources and tags](./amazon_ecs/resources-and-tags.md)
-    - [Monitoring](./amazon_ecs/monitoring.md)
-    - [Working with other services](./amazon_ecs/working-with-other-services.md)
-    - [Tutorials](./amazon_ecs/tutorials.md)
-    - [Troubleshooting](./amazon_ecs/troubleshooting.md)
-  - Topics
-    - [Developer tools overview](./amazon_ecs/developer-tools-overview.md)
-    - [Clusters](./amazon_ecs/clusters.md)
-    - [Task definitions](./amazon_ecs/task-definitions.md)
-    - [Account settings](./amazon_ecs/account-settings.md)
-    - [Container instances](./amazon_ecs/container-instances.md)
-    - [Container agent](./amazon_ecs/container-agent.md)
-    - [Scheduling tasks](./amazon_ecs/scheduling-tasks.md)
-    - [Services](./amazon_ecs/services.md)
-- Amazon EFS
-  - Common
-    - [Getting started](./amazon_efs/getting-started.md)
-    - [Security](./amazon_efs/security.md)
-  - Topics
-    - [Working with EFS resources](./amazon_efs/working-with-efs-resources.md)
-    - [Using amazon-efs-utils](./amazon_efs/using-amazon-efs-utils.md)
-    - [Mounting file systems](./amazon_efs/mounting-file-systems.md)
-    - [Transferring data](./amazon_efs/transferring-data.md)
-    - [Managing file systems](./amazon_efs/managing-file-systems.md)
-    - [EFS backups](./amazon_efs/efs-backups.md)
-    - [Walkthroughs](./amazon_efs/walkthroughs.md)
-    - [Troubleshooting Amazon EFS](./amazon_efs/troubleshooting-amazon-efs.md)
-    - [Additional information](./amazon_efs/additional-information.md)
-- Amazon S3 Glacier
-  - Common
-    - [Getting Started](./amazon_s3_glacier/getting-started.md)
-  - Topics
-    - [What Is Amazon S3 Glacier?](./amazon_s3_glacier/what-is-amazon-s3-glacier?.md)
-    - [Working with Vaults](./amazon_s3_glacier/working-with-vaults.md)
-    - [Working with Archives](./amazon_s3_glacier/working-with-archives.md)
-    - [Using the AWS SDKs](./amazon_s3_glacier/using-the-aws-sdks.md)
-    - [API Reference](./amazon_s3_glacier/api-reference.md)
-- AWS Snow Family
-  - Common
-    - [Getting Started](./aws_snow_family/getting-started.md)
-    - [Security](./aws_snow_family/security.md)
-  - Topics
-    - [What is Snowball Edge?](./aws_snow_family/what-is-snowball-edge?.md)
-    - [Large Data Migration](./aws_snow_family/large-data-migration.md)
-    - [Using AWS OpsHub to Manage Devices](./aws_snow_family/using-aws-opshub-to-manage-devices.md)
-    - [Using a Snowball Edge Device](./aws_snow_family/using-a-snowball-edge-device.md)
-    - [Using Snow Device Management to Manage Devices](./aws_snow_family/using-snow-device-management-to-manage-devices.md)
-    - [Understanding AWS Snowball Edge Jobs](./aws_snow_family/understanding-aws-snowball-edge-jobs.md)
-    - [Best Practices](./aws_snow_family/best-practices.md)
-    - [Quotas](./aws_snow_family/quotas.md)
-- AWS Directory Service
-  - Common
-  - Topics
-- AWS IAM Identity Center (successor to AWS Single Sign-On)
-  - Common
-    - [Getting started](./aws_iam_identity_center_successor_to_aws_single_sign_on/getting-started.md)
-  - Topics
-    - [Workforce identities](./aws_iam_identity_center_successor_to_aws_single_sign_on/workforce-identities.md)
-    - [Multi-account permissions](./aws_iam_identity_center_successor_to_aws_single_sign_on/multi-account-permissions.md)
-    - [Application assignments](./aws_iam_identity_center_successor_to_aws_single_sign_on/application-assignments.md)
-    - [Resiliency design and Regional behavior](./aws_iam_identity_center_successor_to_aws_single_sign_on/resiliency-design-and-regional-behavior.md)
-- AWS Resource Access Manager (AWS RAM)
-  - Common
-    - [Getting started](./aws_resource_access_manager_aws_ram/getting-started.md)
-    - [Troubleshooting](./aws_resource_access_manager_aws_ram/troubleshooting.md)
-  - Topics
-    - [Working with shared resources](./aws_resource_access_manager_aws_ram/working-with-shared-resources.md)
-    - [Managing permissions in AWS RAM](./aws_resource_access_manager_aws_ram/managing-permissions-in-aws-ram.md)
-- AWS Secrets Manager
-  - Common
-  - Topics
-    - [Create and manage secrets](./aws_secrets_manager/create-and-manage-secrets.md)
-    - [Retrieve secrets](./aws_secrets_manager/retrieve-secrets.md)
-    - [Rotate secrets](./aws_secrets_manager/rotate-secrets.md)
-    - [Security in Secrets Manager](./aws_secrets_manager/security-in-secrets-manager.md)
-- AWS Cryptographic Services Overview
-  - Common
-  - Topics
-    - [AWS cryptographic services and tools](./aws_cryptographic_services_overview/aws-cryptographic-services-and-tools.md)
-- AWS CloudHSM
-  - Common
-    - [Getting started](./aws_cloud_hsm/getting-started.md)
-    - [Troubleshooting](./aws_cloud_hsm/troubleshooting.md)
-  - Topics
-    - [Managing clusters](./aws_cloud_hsm/managing-clusters.md)
-    - [Managing backups](./aws_cloud_hsm/managing-backups.md)
-    - [Integrating third-party applications](./aws_cloud_hsm/integrating-third-party-applications.md)
-- AWS Key Management Service (AWS KMS)
-  - Common
-  - Topics
-    - [AWS Key Management Service](./aws_key_management_service_aws_kms/aws-key-management-service.md)
-    - [Managing keys](./aws_key_management_service_aws_kms/managing-keys.md)
-    - [Authentication and access control](./aws_key_management_service_aws_kms/authentication-and-access-control.md)
-    - [Special-purpose keys](./aws_key_management_service_aws_kms/special-purpose-keys.md)
-    - [Quotas](./aws_key_management_service_aws_kms/quotas.md)
-    - [How AWS services use AWS KMS](./aws_key_management_service_aws_kms/how-aws-services-use-aws-kms.md)
-    - [Programming the AWS KMS API](./aws_key_management_service_aws_kms/programming-the-aws-kms-api.md)
 - Amazon CodeGuru
   - Common
     - [Getting started](./amazon_code_guru/getting-started.md)
@@ -360,6 +255,146 @@
 - Amazon Machine Learning
   - Common
   - Topics
+## Containers
+- AWS App Runner
+  - Common
+    - [Networking](./aws_app_runner/networking.md)
+  - Topics
+    - [Managing your service](./aws_app_runner/managing-your-service.md)
+    - [Observability](./aws_app_runner/observability.md)
+    - [App Runner configuration file](./aws_app_runner/app-runner-configuration-file.md)
+    - [App Runner API](./aws_app_runner/app-runner-api.md)
+- Amazon ECS
+  - Common
+    - [Getting started](./amazon_ecs/getting-started.md)
+    - [Resources and tags](./amazon_ecs/resources-and-tags.md)
+    - [Monitoring](./amazon_ecs/monitoring.md)
+    - [Working with other services](./amazon_ecs/working-with-other-services.md)
+    - [Tutorials](./amazon_ecs/tutorials.md)
+    - [Troubleshooting](./amazon_ecs/troubleshooting.md)
+  - Topics
+    - [Developer tools overview](./amazon_ecs/developer-tools-overview.md)
+    - [Clusters](./amazon_ecs/clusters.md)
+    - [Task definitions](./amazon_ecs/task-definitions.md)
+    - [Account settings](./amazon_ecs/account-settings.md)
+    - [Container instances](./amazon_ecs/container-instances.md)
+    - [Container agent](./amazon_ecs/container-agent.md)
+    - [Scheduling tasks](./amazon_ecs/scheduling-tasks.md)
+    - [Services](./amazon_ecs/services.md)
+## Storage
+- Amazon EFS
+  - Common
+    - [Getting started](./amazon_efs/getting-started.md)
+    - [Security](./amazon_efs/security.md)
+  - Topics
+    - [Working with EFS resources](./amazon_efs/working-with-efs-resources.md)
+    - [Using amazon-efs-utils](./amazon_efs/using-amazon-efs-utils.md)
+    - [Mounting file systems](./amazon_efs/mounting-file-systems.md)
+    - [Transferring data](./amazon_efs/transferring-data.md)
+    - [Managing file systems](./amazon_efs/managing-file-systems.md)
+    - [EFS backups](./amazon_efs/efs-backups.md)
+    - [Walkthroughs](./amazon_efs/walkthroughs.md)
+    - [Troubleshooting Amazon EFS](./amazon_efs/troubleshooting-amazon-efs.md)
+    - [Additional information](./amazon_efs/additional-information.md)
+- Amazon S3 Glacier
+  - Common
+    - [Getting Started](./amazon_s3_glacier/getting-started.md)
+  - Topics
+    - [What Is Amazon S3 Glacier?](./amazon_s3_glacier/what-is-amazon-s3-glacier?.md)
+    - [Working with Vaults](./amazon_s3_glacier/working-with-vaults.md)
+    - [Working with Archives](./amazon_s3_glacier/working-with-archives.md)
+    - [Using the AWS SDKs](./amazon_s3_glacier/using-the-aws-sdks.md)
+    - [API Reference](./amazon_s3_glacier/api-reference.md)
+## Migration & Transfer
+- AWS Snow Family
+  - Common
+    - [Getting Started](./aws_snow_family/getting-started.md)
+    - [Security](./aws_snow_family/security.md)
+  - Topics
+    - [What is Snowball Edge?](./aws_snow_family/what-is-snowball-edge?.md)
+    - [Large Data Migration](./aws_snow_family/large-data-migration.md)
+    - [Using AWS OpsHub to Manage Devices](./aws_snow_family/using-aws-opshub-to-manage-devices.md)
+    - [Using a Snowball Edge Device](./aws_snow_family/using-a-snowball-edge-device.md)
+    - [Using Snow Device Management to Manage Devices](./aws_snow_family/using-snow-device-management-to-manage-devices.md)
+    - [Understanding AWS Snowball Edge Jobs](./aws_snow_family/understanding-aws-snowball-edge-jobs.md)
+    - [Best Practices](./aws_snow_family/best-practices.md)
+    - [Quotas](./aws_snow_family/quotas.md)
+- AWS Application Discovery Service
+  - Common
+  - Topics
+    - [Setting up](./aws_application_discovery_service/setting-up.md)
+    - [Discovery Agent](./aws_application_discovery_service/discovery-agent.md)
+    - [View, export & explore data](./aws_application_discovery_service/view,-export-&-explore-data.md)
+    - [Console Walkthroughs](./aws_application_discovery_service/console-walkthroughs.md)
+    - [Appendix](./aws_application_discovery_service/appendix.md)
+- AWS Application Migration Service
+  - Common
+  - Topics
+- AWS Migration Hub
+  - Common
+    - [Getting started](./aws_migration_hub/getting-started.md)
+  - Topics
+- AWS Transfer Family
+  - Common
+    - [Configuring AS2](./aws_transfer_family/configuring-as2.md)
+    - [Security](./aws_transfer_family/security.md)
+  - Topics
+    - [Setting up](./aws_transfer_family/setting-up.md)
+    - [Creating a server](./aws_transfer_family/creating-a-server.md)
+    - [Managing users](./aws_transfer_family/managing-users.md)
+    - [Managing workflows](./aws_transfer_family/managing-workflows.md)
+    - [Managing servers](./aws_transfer_family/managing-servers.md)
+    - [API reference](./aws_transfer_family/api-reference.md)
+## Security, Identity, & Compliance
+- AWS Directory Service
+  - Common
+  - Topics
+- AWS IAM Identity Center (successor to AWS Single Sign-On)
+  - Common
+    - [Getting started](./aws_iam_identity_center_successor_to_aws_single_sign_on/getting-started.md)
+  - Topics
+    - [Workforce identities](./aws_iam_identity_center_successor_to_aws_single_sign_on/workforce-identities.md)
+    - [Multi-account permissions](./aws_iam_identity_center_successor_to_aws_single_sign_on/multi-account-permissions.md)
+    - [Application assignments](./aws_iam_identity_center_successor_to_aws_single_sign_on/application-assignments.md)
+    - [Resiliency design and Regional behavior](./aws_iam_identity_center_successor_to_aws_single_sign_on/resiliency-design-and-regional-behavior.md)
+- AWS Resource Access Manager (AWS RAM)
+  - Common
+    - [Getting started](./aws_resource_access_manager_aws_ram/getting-started.md)
+    - [Troubleshooting](./aws_resource_access_manager_aws_ram/troubleshooting.md)
+  - Topics
+    - [Working with shared resources](./aws_resource_access_manager_aws_ram/working-with-shared-resources.md)
+    - [Managing permissions in AWS RAM](./aws_resource_access_manager_aws_ram/managing-permissions-in-aws-ram.md)
+- AWS Secrets Manager
+  - Common
+  - Topics
+    - [Create and manage secrets](./aws_secrets_manager/create-and-manage-secrets.md)
+    - [Retrieve secrets](./aws_secrets_manager/retrieve-secrets.md)
+    - [Rotate secrets](./aws_secrets_manager/rotate-secrets.md)
+    - [Security in Secrets Manager](./aws_secrets_manager/security-in-secrets-manager.md)
+## Cryptography & PKI
+- AWS Cryptographic Services Overview
+  - Common
+  - Topics
+    - [AWS cryptographic services and tools](./aws_cryptographic_services_overview/aws-cryptographic-services-and-tools.md)
+- AWS CloudHSM
+  - Common
+    - [Getting started](./aws_cloud_hsm/getting-started.md)
+    - [Troubleshooting](./aws_cloud_hsm/troubleshooting.md)
+  - Topics
+    - [Managing clusters](./aws_cloud_hsm/managing-clusters.md)
+    - [Managing backups](./aws_cloud_hsm/managing-backups.md)
+    - [Integrating third-party applications](./aws_cloud_hsm/integrating-third-party-applications.md)
+- AWS Key Management Service (AWS KMS)
+  - Common
+  - Topics
+    - [AWS Key Management Service](./aws_key_management_service_aws_kms/aws-key-management-service.md)
+    - [Managing keys](./aws_key_management_service_aws_kms/managing-keys.md)
+    - [Authentication and access control](./aws_key_management_service_aws_kms/authentication-and-access-control.md)
+    - [Special-purpose keys](./aws_key_management_service_aws_kms/special-purpose-keys.md)
+    - [Quotas](./aws_key_management_service_aws_kms/quotas.md)
+    - [How AWS services use AWS KMS](./aws_key_management_service_aws_kms/how-aws-services-use-aws-kms.md)
+    - [Programming the AWS KMS API](./aws_key_management_service_aws_kms/programming-the-aws-kms-api.md)
+## Management & Governance
 - AWS Command Line Interface (AWS CLI)
   - Common
     - [Getting started](./aws_command_line_interface_aws_cli/getting-started.md)
@@ -387,6 +422,7 @@
 - Service Quotas
   - Common
   - Topics
+## Networking & Content Delivery
 - Amazon API Gateway
   - Common
   - Topics
@@ -395,6 +431,31 @@
     - [Working with WebSocket APIs](./amazon_api_gateway/working-with-websocket-apis.md)
     - [OpenAPI extensions](./amazon_api_gateway/openapi-extensions.md)
     - [Tagging](./amazon_api_gateway/tagging.md)
+- AWS App Mesh
+  - Common
+    - [Getting started](./aws_app_mesh/getting-started.md)
+    - [Troubleshooting](./aws_app_mesh/troubleshooting.md)
+  - Topics
+    - [Concepts](./aws_app_mesh/concepts.md)
+    - [Envoy](./aws_app_mesh/envoy.md)
+    - [Observability](./aws_app_mesh/observability.md)
+    - [Securing Applications](./aws_app_mesh/securing-applications.md)
+- Amazon Route 53
+  - Common
+    - [Getting started](./amazon_route_53/getting-started.md)
+    - [Configuring Amazon Route 53 as your DNS service](./amazon_route_53/configuring-amazon-route 53-as-your-dns-service.md)
+    - [Monitoring](./amazon_route_53/monitoring.md)
+    - [Troubleshooting](./amazon_route_53/troubleshooting.md)
+    - [Tutorials](./amazon_route_53/tutorials.md)
+  - Topics
+    - [Registering and managing domains](./amazon_route_53/registering-and-managing-domains.md)
+    - [What is Route 53 Resolver?](./amazon_route_53/what-is-route 53-resolver?.md)
+    - [Routing internet traffic to your AWS resources](./amazon_route_53/routing-internet-traffic-to-your-aws-resources.md)
+    - [Creating health checks and configuring DNS failover](./amazon_route_53/creating-health-checks-and-configuring-dns-failover.md)
+- AWS VPN
+  - Common
+  - Topics
+## Application Integration
 - AWS Step Functions
   - Common
     - [Tutorials](./aws_step_functions/tutorials.md)
@@ -407,6 +468,7 @@
     - [Best practices](./aws_step_functions/best-practices.md)
     - [Sample projects for Step Functions](./aws_step_functions/sample-projects-for-step-functions.md)
     - [Logging and monitoring](./aws_step_functions/logging-and-monitoring.md)
+## Developer Tools
 - AWS Cloud9
   - Common
     - [Security](./aws_cloud_9/security.md)
@@ -462,56 +524,7 @@
     - [Working with Node.js](./aws_x_ray/working-with-node.md)
     - [Working with Python](./aws_x_ray/working-with-python.md)
     - [Working with .NET](./aws_x_ray/working-with-.md)
-- AWS Application Discovery Service
-  - Common
-  - Topics
-    - [Setting up](./aws_application_discovery_service/setting-up.md)
-    - [Discovery Agent](./aws_application_discovery_service/discovery-agent.md)
-    - [View, export & explore data](./aws_application_discovery_service/view,-export-&-explore-data.md)
-    - [Console Walkthroughs](./aws_application_discovery_service/console-walkthroughs.md)
-    - [Appendix](./aws_application_discovery_service/appendix.md)
-- AWS Application Migration Service
-  - Common
-  - Topics
-- AWS Migration Hub
-  - Common
-    - [Getting started](./aws_migration_hub/getting-started.md)
-  - Topics
-- AWS Transfer Family
-  - Common
-    - [Configuring AS2](./aws_transfer_family/configuring-as2.md)
-    - [Security](./aws_transfer_family/security.md)
-  - Topics
-    - [Setting up](./aws_transfer_family/setting-up.md)
-    - [Creating a server](./aws_transfer_family/creating-a-server.md)
-    - [Managing users](./aws_transfer_family/managing-users.md)
-    - [Managing workflows](./aws_transfer_family/managing-workflows.md)
-    - [Managing servers](./aws_transfer_family/managing-servers.md)
-    - [API reference](./aws_transfer_family/api-reference.md)
-- AWS App Mesh
-  - Common
-    - [Getting started](./aws_app_mesh/getting-started.md)
-    - [Troubleshooting](./aws_app_mesh/troubleshooting.md)
-  - Topics
-    - [Concepts](./aws_app_mesh/concepts.md)
-    - [Envoy](./aws_app_mesh/envoy.md)
-    - [Observability](./aws_app_mesh/observability.md)
-    - [Securing Applications](./aws_app_mesh/securing-applications.md)
-- Amazon Route 53
-  - Common
-    - [Getting started](./amazon_route_53/getting-started.md)
-    - [Configuring Amazon Route 53 as your DNS service](./amazon_route_53/configuring-amazon-route 53-as-your-dns-service.md)
-    - [Monitoring](./amazon_route_53/monitoring.md)
-    - [Troubleshooting](./amazon_route_53/troubleshooting.md)
-    - [Tutorials](./amazon_route_53/tutorials.md)
-  - Topics
-    - [Registering and managing domains](./amazon_route_53/registering-and-managing-domains.md)
-    - [What is Route 53 Resolver?](./amazon_route_53/what-is-route 53-resolver?.md)
-    - [Routing internet traffic to your AWS resources](./amazon_route_53/routing-internet-traffic-to-your-aws-resources.md)
-    - [Creating health checks and configuring DNS failover](./amazon_route_53/creating-health-checks-and-configuring-dns-failover.md)
-- AWS VPN
-  - Common
-  - Topics
+## Media Services
 - Amazon Elastic Transcoder
   - Common
   - Topics
@@ -520,6 +533,7 @@
     - [Working with Presets](./amazon_elastic_transcoder/working-with-presets.md)
     - [Securing Your Content](./amazon_elastic_transcoder/securing-your-content.md)
     - [API Reference](./amazon_elastic_transcoder/api-reference.md)
+## Internet of Things (IoT)
 - AWS IoT Analytics
   - Common
   - Topics
@@ -564,12 +578,21 @@
     - [Interacting with other services](./aws_iot_site_wise/interacting-with-other-services.md)
     - [Logging and monitoring](./aws_iot_site_wise/logging-and-monitoring.md)
     - [Endpoints and quotas](./aws_iot_site_wise/endpoints-and-quotas.md)
+## Business Applications
 - Amazon Pinpoint
   - Common
   - Topics
+- Amazon Chime SDK
+  - Common
+  - Topics
+    - [Using the Amazon Chime SDK](./amazon_chime_sdk/using-the-amazon-chime-sdk.md)
+    - [Using Amazon Chime SDK meetings](./amazon_chime_sdk/using-amazon-chime-sdk-meetings.md)
+    - [Using Amazon Chime SDK messaging](./amazon_chime_sdk/using-amazon-chime-sdk-messaging.md)
+## End User Computing
 - NICE DCV
   - Common
   - Topics
+## Analytics
 - Amazon CloudSearch
   - Common
     - [Getting Started](./amazon_cloud_search/getting-started.md)
@@ -619,16 +642,12 @@
     - [MSK Connect](./amazon_msk/msk-connect.md)
     - [Connecting to an MSK cluster](./amazon_msk/connecting-to-an-msk-cluster.md)
     - [Apache Kafka versions](./amazon_msk/apache-kafka-versions.md)
-- Amazon Chime SDK
-  - Common
-  - Topics
-    - [Using the Amazon Chime SDK](./amazon_chime_sdk/using-the-amazon-chime-sdk.md)
-    - [Using Amazon Chime SDK meetings](./amazon_chime_sdk/using-amazon-chime-sdk-meetings.md)
-    - [Using Amazon Chime SDK messaging](./amazon_chime_sdk/using-amazon-chime-sdk-messaging.md)
+## Robotics
 - AWS RoboMaker
   - Common
     - [Security](./aws_robo_maker/security.md)
   - Topics
+## Blockchain
 - Amazon Managed Blockchain
   - Common
     - [Getting Started](./amazon_managed_blockchain/getting-started.md)
