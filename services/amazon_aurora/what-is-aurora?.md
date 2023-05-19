@@ -10,6 +10,26 @@ updated: 1683841041000
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/amazon-aurora-user-guide.git)
 {% endhint %}
 
+## Aurora DB clusters
+
+- **Note**  
+The preceding information applies to provisioned clusters, parallel query clusters, global database clusters, Aurora Serverless clusters, and all MySQL 8\.0\-compatible, 5\.7\-compatible, and PostgreSQL\-compatible clusters\.
+
+
+## Aurora versions
+
+- **Note**  
+If you want to remain on an LTS minor version for the duration of its lifecycle, make sure to turn off **Auto minor version upgrade** for your DB instances\. To avoid automatically upgrading your DB cluster from the LTS minor version, set **Auto minor version upgrade** to `No` on any DB instance in your Aurora cluster\.
+
+
+## Regions and Availability Zones
+
+- **Note**  
+For information about finding the Availability Zones for an AWS Region, see [Describe your Availability Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#availability-zones-describe) in the Amazon EC2 documentation\.
+- **Note**  
+Aurora doesn't support Local Zones\.
+
+
 ## Aurora connection management
 
 - **Tip**  

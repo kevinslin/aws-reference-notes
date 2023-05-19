@@ -10,6 +10,12 @@ updated: 1683841041000
 This page was generated from content adapted from the [AWS Developer Guide](https://github.com/awsdocs/aws-lambda-developer-guide.git)
 {% endhint %}
 
+## Programming model
+
+- **Note**  
+Logging is subject to [CloudWatch Logs quotas](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/cloudwatch_limits_cwl.html)\. Log data can be lost due to throttling or, in some cases, when an instance of your function is stopped\.
+
+
 ## Execution environment
 
 - **Note**  
