@@ -40,6 +40,10 @@ Examples of `Topics` sections:
 - S3 Clacier Vaults
 - KMS Keys
 
+## Acknowledgements
+
+All content in this site (besides this page) is generated from the official AWS Developer Docs, licensed under the [Creative Commons Attribution 4.0 International](https://github.com/open-guides/og-aws/blob/master/LICENSE.txt)
+
 ## Contributing
 
 This project is hot off the press as of 2023-05-14. 
