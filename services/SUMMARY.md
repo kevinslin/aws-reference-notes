@@ -91,13 +91,13 @@
 ## Database
 - Amazon Aurora
   - Common
+    - [What is Aurora?](./amazon_aurora/what-is-aurora?.md)
     - [Getting started](./amazon_aurora/getting-started.md)
     - [Configuring your Aurora DB cluster](./amazon_aurora/configuring-your-aurora-db-cluster.md)
     - [Monitoring metrics in an Aurora DB cluster](./amazon_aurora/monitoring-metrics-in-an-aurora-db-cluster.md)
     - [Monitoring events, logs, and database activity streams](./amazon_aurora/monitoring-events,-logs,-and-database-activity-streams.md)
     - [Security](./amazon_aurora/security.md)
   - Topics
-    - [What is Aurora?](./amazon_aurora/what-is-aurora?.md)
     - [Managing an Aurora DB cluster](./amazon_aurora/managing-an-aurora-db-cluster.md)
     - [Using Blue/Green Deployments for database updates](./green-deployments-for-database-updates/md.md)
     - [Backing up and restoring an Aurora DB cluster](./amazon_aurora/backing-up-and-restoring-an-aurora-db-cluster.md)
@@ -108,6 +108,7 @@
     - [Using Aurora Serverless v1](./amazon_aurora/using-aurora-serverless-v1.md)
 - Amazon RDS
   - Common
+    - [What is Amazon RDS?](./amazon_rds/what-is-amazon-rds?.md)
     - [Getting started](./amazon_rds/getting-started.md)
     - [Configuring a DB instance](./amazon_rds/configuring-a-db-instance.md)
     - [Configuring and managing a Multi-AZ deployment](./amazon_rds/configuring-and-managing-a-multi-az-deployment.md)
@@ -115,7 +116,6 @@
     - [Monitoring events, logs, and database activity streams](./amazon_rds/monitoring-events,-logs,-and-database-activity-streams.md)
     - [Security](./amazon_rds/security.md)
   - Topics
-    - [What is Amazon RDS?](./amazon_rds/what-is-amazon-rds?.md)
     - [Managing a DB instance](./amazon_rds/managing-a-db-instance.md)
     - [Using Blue/Green Deployments for database updates](./green-deployments-for-database-updates/md.md)
     - [Backing up and restoring](./amazon_rds/backing-up-and-restoring.md)
@@ -308,10 +308,10 @@
 ## Migration & Transfer
 - AWS Snow Family
   - Common
+    - [What is Snowball Edge?](./aws_snow_family/what-is-snowball-edge?.md)
     - [Getting Started](./aws_snow_family/getting-started.md)
     - [Security](./aws_snow_family/security.md)
   - Topics
-    - [What is Snowball Edge?](./aws_snow_family/what-is-snowball-edge?.md)
     - [Large Data Migration](./aws_snow_family/large-data-migration.md)
     - [Using AWS OpsHub to Manage Devices](./aws_snow_family/using-aws-opshub-to-manage-devices.md)
     - [Using a Snowball Edge Device](./aws_snow_family/using-a-snowball-edge-device.md)
@@ -444,12 +444,12 @@
   - Common
     - [Getting started](./amazon_route_53/getting-started.md)
     - [Configuring Amazon Route 53 as your DNS service](./amazon_route_53/configuring-amazon-route 53-as-your-dns-service.md)
+    - [What is Route 53 Resolver?](./amazon_route_53/what-is-route 53-resolver?.md)
     - [Monitoring](./amazon_route_53/monitoring.md)
     - [Troubleshooting](./amazon_route_53/troubleshooting.md)
     - [Tutorials](./amazon_route_53/tutorials.md)
   - Topics
     - [Registering and managing domains](./amazon_route_53/registering-and-managing-domains.md)
-    - [What is Route 53 Resolver?](./amazon_route_53/what-is-route 53-resolver?.md)
     - [Routing internet traffic to your AWS resources](./amazon_route_53/routing-internet-traffic-to-your-aws-resources.md)
     - [Creating health checks and configuring DNS failover](./amazon_route_53/creating-health-checks-and-configuring-dns-failover.md)
 - AWS VPN
@@ -497,12 +497,12 @@
     - [Working with VPC endpoints](./aws_code_artifact/working-with-vpc-endpoints.md)
 - AWS CodeDeploy
   - Common
+    - [What is CodeDeploy?](./aws_code_deploy/what-is-codedeploy?.md)
     - [Getting started](./aws_code_deploy/getting-started.md)
     - [Tutorials](./aws_code_deploy/tutorials.md)
     - [Security](./aws_code_deploy/security.md)
     - [Troubleshooting](./aws_code_deploy/troubleshooting.md)
   - Topics
-    - [What is CodeDeploy?](./aws_code_deploy/what-is-codedeploy?.md)
     - [Product and service integrations](./aws_code_deploy/product-and-service-integrations.md)
     - [Working with instances](./aws_code_deploy/working-with-instances.md)
     - [Working with application revisions](./aws_code_deploy/working-with-application-revisions.md)
@@ -547,10 +547,10 @@
     - [Expressions](./aws_iot_events/expressions.md)
 - AWS IoT Greengrass
   - Common
+    - [What is AWS IoT Greengrass?](./aws_iot_greengrass/what-is-aws-iot-greengrass?.md)
     - [Tutorials](./aws_iot_greengrass/tutorials.md)
     - [Security](./aws_iot_greengrass/security.md)
   - Topics
-    - [What is AWS IoT Greengrass?](./aws_iot_greengrass/what-is-aws-iot-greengrass?.md)
     - [Setting up Greengrass core devices](./aws_iot_greengrass/setting-up-greengrass-core-devices.md)
     - [Components](./aws_iot_greengrass/components.md)
     - [Logging and monitoring](./aws_iot_greengrass/logging-and-monitoring.md)
