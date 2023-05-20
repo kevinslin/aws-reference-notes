@@ -23,6 +23,11 @@
     - [Manage pipelines](./amazon_ec2_image_builder/manage-pipelines.md)
     - [Integrate products and services](./amazon_ec2_image_builder/integrate-products-and-services.md)
     - [Security in EC2 Image Builder](./amazon_ec2_image_builder/security-in-ec2-image-builder.md)
+- AWS End-of-Support Migration Program (EMP) for Windows Server
+  - Common
+  - Topics
+    - [Get started](./aws_end_ofsupport_migration_program_emp_for_windows_server/get-started.md)
+    - [Working with EMP packages](./aws_end_ofsupport_migration_program_emp_for_windows_server/working-with-emp-packages.md)
 - AWS ParallelCluster
   - Common
   - Topics
@@ -193,6 +198,14 @@
     - [Using your model on an edge device](./amazon_lookout_for_vision/using-your-model-on-an-edge-device.md)
     - [Managing your resources](./amazon_lookout_for_vision/managing-your-resources.md)
     - [Example code and datasets](./amazon_lookout_for_vision/example-code-and-datasets.md)
+- AWS Panorama
+  - Common
+    - [Getting started](./aws_panorama/getting-started.md)
+    - [Monitoring](./aws_panorama/monitoring.md)
+  - Topics
+    - [Permissions](./aws_panorama/permissions.md)
+    - [Appliance](./aws_panorama/appliance.md)
+    - [Building applications](./aws_panorama/building-applications.md)
 - Amazon Personalize
   - Common
   - Topics
@@ -241,6 +254,10 @@
   - Topics
     - [Getting Started With Deep Learning Containers](./aws_deep_learning_containers/getting-started-with-deep-learning-containers.md)
     - [Deep Learning Containers Resources](./aws_deep_learning_containers/deep-learning-containers-resources.md)
+- AWS DeepLens
+  - Common
+  - Topics
+    - [Managing Your Device](./aws_deep_lens/managing-your-device.md)
 - AWS DeepRacer
   - Common
   - Topics
@@ -276,6 +293,17 @@
     - [Scheduling tasks](./amazon_ecs/scheduling-tasks.md)
     - [Services](./amazon_ecs/services.md)
 ## Storage
+- Amazon EBS
+  - Common
+    - [Monitor](./amazon_ebs/monitor.md)
+    - [Networking](./amazon_ebs/networking.md)
+    - [Security](./amazon_ebs/security.md)
+    - [Resources and tags](./amazon_ebs/resources-and-tags.md)
+    - [Troubleshoot](./amazon_ebs/troubleshoot.md)
+  - Topics
+    - [Amazon Machine Images](./amazon_ebs/amazon-machine-images.md)
+    - [Instances](./amazon_ebs/instances.md)
+    - [Storage](./amazon_ebs/storage.md)
 - Amazon EFS
   - Common
     - [Getting started](./amazon_efs/getting-started.md)
@@ -321,6 +349,27 @@
     - [View, export & explore data](./aws_application_discovery_service/view,-export-&-explore-data.md)
     - [Console Walkthroughs](./aws_application_discovery_service/console-walkthroughs.md)
     - [Appendix](./aws_application_discovery_service/appendix.md)
+- AWS Database Migration Service
+  - Common
+    - [Getting started](./aws_database_migration_service/getting-started.md)
+    - [Security](./aws_database_migration_service/security.md)
+  - Topics
+    - [Working with replication instances](./aws_database_migration_service/working-with-replication-instances.md)
+    - [Endpoints](./aws_database_migration_service/endpoints.md)
+    - [Tasks](./aws_database_migration_service/tasks.md)
+    - [Troubleshooting and diagnostic support](./aws_database_migration_service/troubleshooting-and-diagnostic-support.md)
+    - [Reference](./aws_database_migration_service/reference.md)
+- AWS DataSync
+  - Common
+    - [Getting started](./aws_data_sync/getting-started.md)
+    - [Security](./aws_data_sync/security.md)
+    - [Tutorials](./aws_data_sync/tutorials.md)
+  - Topics
+    - [Requirements](./aws_data_sync/requirements.md)
+    - [Working with agents](./aws_data_sync/working-with-agents.md)
+    - [Discovering your storage](./aws_data_sync/discovering-your-storage.md)
+    - [Transferring your data](./aws_data_sync/transferring-your-data.md)
+    - [Using the AWS CLI](./aws_data_sync/using-the-aws-cli.md)
 - AWS Migration Hub
   - Common
     - [Getting started](./aws_migration_hub/getting-started.md)
@@ -337,6 +386,24 @@
     - [Managing servers](./aws_transfer_family/managing-servers.md)
     - [API reference](./aws_transfer_family/api-reference.md)
 ## Security, Identity, & Compliance
+- AWS Identity and Access Management (IAM)
+  - Common
+    - [What is IAM?](./aws_identity_and_access_management_iam/what-is-iam?.md)
+    - [Tutorials](./aws_identity_and_access_management_iam/tutorials.md)
+    - [Security](./aws_identity_and_access_management_iam/security.md)
+  - Topics
+    - [Identities](./aws_identity_and_access_management_iam/identities.md)
+    - [Access management](./aws_identity_and_access_management_iam/access-management.md)
+    - [Troubleshooting IAM](./aws_identity_and_access_management_iam/troubleshooting-iam.md)
+    - [Reference](./aws_identity_and_access_management_iam/reference.md)
+- Amazon Cognito
+  - Common
+    - [Tutorials](./amazon_cognito/tutorials.md)
+    - [Security](./amazon_cognito/security.md)
+  - Topics
+    - [Amazon Cognito user pools](./amazon_cognito/amazon-cognito-user-pools.md)
+    - [Amazon Cognito identity pools](./amazon_cognito/amazon-cognito-identity-pools.md)
+    - [Amazon Cognito Sync](./amazon_cognito/amazon-cognito-sync.md)
 - AWS IAM Identity Center (successor to AWS Single Sign-On)
   - Common
     - [Getting started](./aws_iam_identity_center_successor_to_aws_single_sign_on/getting-started.md)
@@ -359,6 +426,12 @@
     - [Retrieve secrets](./aws_secrets_manager/retrieve-secrets.md)
     - [Rotate secrets](./aws_secrets_manager/rotate-secrets.md)
     - [Security in Secrets Manager](./aws_secrets_manager/security-in-secrets-manager.md)
+- AWS WAF
+  - Common
+  - Topics
+    - [AWS WAF](./aws_waf/aws-waf.md)
+    - [AWS WAF Classic](./aws_waf/aws-waf-classic.md)
+    - [AWS Shield](./aws_waf/aws-shield.md)
 ## Cryptography & PKI
 - AWS Cryptographic Services Overview
   - Common
@@ -382,7 +455,25 @@
     - [Quotas](./aws_key_management_service_aws_kms/quotas.md)
     - [How AWS services use AWS KMS](./aws_key_management_service_aws_kms/how-aws-services-use-aws-kms.md)
     - [Programming the AWS KMS API](./aws_key_management_service_aws_kms/programming-the-aws-kms-api.md)
+- AWS Private Certificate Authority
+  - Common
+    - [What is AWS Private CA?](./aws_private_certificate_authority/what-is-aws-private-ca?.md)
+    - [Security](./aws_private_certificate_authority/security.md)
+  - Topics
+    - [Planning a private CA](./aws_private_certificate_authority/planning-a-private-ca.md)
+    - [CA administration](./aws_private_certificate_authority/ca-administration.md)
+    - [Certificate administration](./aws_private_certificate_authority/certificate-administration.md)
+    - [Using the API (Java examples)](./aws_private_certificate_authority/using-the-api-(java-examples).md)
 ## Management & Governance
+- AWS Chatbot
+  - Common
+    - [Getting started](./aws_chatbot/getting-started.md)
+    - [Monitoring AWS services](./aws_chatbot/monitoring-aws-services.md)
+    - [Monitoring AWS Chatbot](./aws_chatbot/monitoring-aws-chatbot.md)
+    - [Security](./aws_chatbot/security.md)
+  - Topics
+    - [Understanding permissions](./aws_chatbot/understanding-permissions.md)
+    - [Performing actions](./aws_chatbot/performing-actions.md)
 - AWS Command Line Interface (AWS CLI)
   - Common
     - [Getting started](./aws_command_line_interface_aws_cli/getting-started.md)
@@ -391,6 +482,36 @@
     - [Authentication and access credentials](./aws_command_line_interface_aws_cli/authentication-and-access-credentials.md)
     - [Using the AWS CLI](./aws_command_line_interface_aws_cli/using-the-aws-cli.md)
     - [Using the AWS CLI with AWS Services](./aws_command_line_interface_aws_cli/using-the-aws-cli-with-aws-services.md)
+- AWS Config
+  - Common
+  - Topics
+    - [What Is AWS Config?](./aws_config/what-is-aws-config?.md)
+    - [Using AWS Config](./aws_config/using-aws-config.md)
+    - [AWS Config Rules](./aws_config/aws-config-rules.md)
+    - [Conformance Packs](./aws_config/conformance-packs.md)
+    - [Multi-Account Multi-Region Data Aggregation](./aws_config/multi-account-multi-region-data-aggregation.md)
+- AWS Control Tower
+  - Common
+    - [Getting started](./aws_control_tower/getting-started.md)
+    - [Security](./aws_control_tower/security.md)
+  - Topics
+    - [What Is AWS Control Tower?](./aws_control_tower/what-is-aws-control-tower?.md)
+    - [Best practices for administrators](./aws_control_tower/best-practices-for-administrators.md)
+    - [Automate tasks](./aws_control_tower/automate-tasks.md)
+    - [Customize your landing zone](./aws_control_tower/customize-your-landing-zone.md)
+    - [Configure Regions](./aws_control_tower/configure-regions.md)
+    - [Accounts](./aws_control_tower/accounts.md)
+    - [Drift](./aws_control_tower/drift.md)
+    - [Organizations](./aws_control_tower/organizations.md)
+    - [Controls reference guide](./aws_control_tower/controls-reference-guide.md)
+    - [Integrated services](./aws_control_tower/integrated-services.md)
+    - [Logging and monitoring](./aws_control_tower/logging-and-monitoring.md)
+    - [Walkthroughs](./aws_control_tower/walkthroughs.md)
+    - [Release notes](./aws_control_tower/release-notes.md)
+- AWS Health
+  - Common
+  - Topics
+    - [Aggregating AWS Health events](./aws_health/aggregating-aws-health-events.md)
 - AWS Launch Wizard
   - Common
     - [Security](./aws_launch_wizard/security.md)
@@ -422,6 +543,15 @@
     - [Envoy](./aws_app_mesh/envoy.md)
     - [Observability](./aws_app_mesh/observability.md)
     - [Securing Applications](./aws_app_mesh/securing-applications.md)
+- AWS Direct Connect
+  - Common
+    - [What is AWS Direct Connect?](./aws_direct_connect/what-is-aws-direct-connect?.md)
+  - Topics
+    - [Using the AWS Direct Connect Resiliency Toolkit to get started](./aws_direct_connect/using-the-aws-direct-connect-resiliency-toolkit-to-get-started.md)
+    - [Connections](./aws_direct_connect/connections.md)
+    - [Virtual interfaces](./aws_direct_connect/virtual-interfaces.md)
+    - [LAGs](./aws_direct_connect/lags.md)
+    - [Working with Direct Connect gateways](./aws_direct_connect/working-with-direct-connect-gateways.md)
 - Amazon Route 53
   - Common
     - [Getting started](./amazon_route_53/getting-started.md)
@@ -487,6 +617,18 @@
     - [Working with application revisions](./aws_code_deploy/working-with-application-revisions.md)
     - [Working with deployments](./aws_code_deploy/working-with-deployments.md)
     - [Reference](./aws_code_deploy/reference.md)
+- AWS CodeStar
+  - Common
+  - Topics
+    - [Getting Started with AWS CodeStar](./aws_code_star/getting-started-with-aws-codestar.md)
+    - [Working with Projects](./aws_code_star/working-with-projects.md)
+    - [Working with Teams](./aws_code_star/working-with-teams.md)
+    - [Working with Your AWS CodeStar User Profile](./aws_code_star/working-with-your-aws-codestar-user-profile.md)
+- Porting Assistant for .NET
+  - Common
+  - Topics
+    - [Get Started](./porting_assistant_for_net/get-started.md)
+    - [Porting Assistant for .NET Visual Studio IDE extension](./porting_assistant_for_net/porting-assistant-for-.md)
 - AWS X-Ray
   - Common
     - [Security](./aws_x_ray/security.md)
@@ -510,6 +652,50 @@
     - [Securing Your Content](./amazon_elastic_transcoder/securing-your-content.md)
     - [API Reference](./amazon_elastic_transcoder/api-reference.md)
 ## Internet of Things (IoT)
+- AWS IoT Device Defender
+  - Common
+    - [Security](./aws_iot_device_defender/security.md)
+    - [Monitoring AWS IoT](./aws_iot_device_defender/monitoring-aws-iot.md)
+    - [Troubleshooting](./aws_iot_device_defender/troubleshooting.md)
+  - Topics
+    - [Getting started with AWS IoT Core](./aws_iot_device_defender/getting-started-with-aws-iot-core.md)
+    - [Connecting to AWS IoT Core](./aws_iot_device_defender/connecting-to-aws-iot-core.md)
+    - [Managing devices with AWS IoT](./aws_iot_device_defender/managing-devices-with-aws-iot.md)
+    - [Tagging your AWS IoT resources](./aws_iot_device_defender/tagging-your-aws-iot-resources.md)
+    - [Rules](./aws_iot_device_defender/rules.md)
+    - [Device Shadow service](./aws_iot_device_defender/device-shadow-service.md)
+    - [Jobs](./aws_iot_device_defender/jobs.md)
+    - [AWS IoT secure tunneling](./aws_iot_device_defender/aws-iot-secure-tunneling.md)
+    - [Device provisioning](./aws_iot_device_defender/device-provisioning.md)
+    - [Fleet indexing](./aws_iot_device_defender/fleet-indexing.md)
+    - [MQTT-based file delivery](./aws_iot_device_defender/mqtt-based-file-delivery.md)
+    - [AWS IoT Device Defender](./aws_iot_device_defender/aws-iot-device-defender.md)
+    - [Device Advisor](./aws_iot_device_defender/device-advisor.md)
+    - [Event messages](./aws_iot_device_defender/event-messages.md)
+    - [AWS IoT Core for LoRaWAN](./aws_iot_device_defender/aws-iot-core-for-lorawan.md)
+    - [Event notifications for AWS IoT Wireless](./aws_iot_device_defender/event-notifications-for-aws-iot-wireless.md)
+- AWS IoT Device Management
+  - Common
+    - [Security](./aws_iot_device_management/security.md)
+    - [Monitoring AWS IoT](./aws_iot_device_management/monitoring-aws-iot.md)
+    - [Troubleshooting](./aws_iot_device_management/troubleshooting.md)
+  - Topics
+    - [Getting started with AWS IoT Core](./aws_iot_device_management/getting-started-with-aws-iot-core.md)
+    - [Connecting to AWS IoT Core](./aws_iot_device_management/connecting-to-aws-iot-core.md)
+    - [Managing devices with AWS IoT](./aws_iot_device_management/managing-devices-with-aws-iot.md)
+    - [Tagging your AWS IoT resources](./aws_iot_device_management/tagging-your-aws-iot-resources.md)
+    - [Rules](./aws_iot_device_management/rules.md)
+    - [Device Shadow service](./aws_iot_device_management/device-shadow-service.md)
+    - [Jobs](./aws_iot_device_management/jobs.md)
+    - [AWS IoT secure tunneling](./aws_iot_device_management/aws-iot-secure-tunneling.md)
+    - [Device provisioning](./aws_iot_device_management/device-provisioning.md)
+    - [Fleet indexing](./aws_iot_device_management/fleet-indexing.md)
+    - [MQTT-based file delivery](./aws_iot_device_management/mqtt-based-file-delivery.md)
+    - [AWS IoT Device Defender](./aws_iot_device_management/aws-iot-device-defender.md)
+    - [Device Advisor](./aws_iot_device_management/device-advisor.md)
+    - [Event messages](./aws_iot_device_management/event-messages.md)
+    - [AWS IoT Core for LoRaWAN](./aws_iot_device_management/aws-iot-core-for-lorawan.md)
+    - [Event notifications for AWS IoT Wireless](./aws_iot_device_management/event-notifications-for-aws-iot-wireless.md)
 - AWS IoT Events
   - Common
     - [Tutorials](./aws_iot_events/tutorials.md)
@@ -551,6 +737,7 @@
     - [Interacting with other services](./aws_iot_site_wise/interacting-with-other-services.md)
     - [Logging and monitoring](./aws_iot_site_wise/logging-and-monitoring.md)
     - [Endpoints and quotas](./aws_iot_site_wise/endpoints-and-quotas.md)
+## Front-End Web & Mobile
 ## Business Applications
 - Amazon Chime SDK
   - Common
@@ -572,6 +759,13 @@
     - [Querying For More Information](./amazon_cloud_search/querying-for-more-information.md)
     - [Controlling Search Results](./amazon_cloud_search/controlling-search-results.md)
     - [Amazon CloudSearch API Reference](./amazon_cloud_search/amazon-cloudsearch-api-reference.md)
+- AWS Data Exchange
+  - Common
+    - [Security](./aws_data_exchange/security.md)
+  - Topics
+    - [Subscribing to data products](./aws_data_exchange/subscribing-to-data-products.md)
+    - [Providing data products](./aws_data_exchange/providing-data-products.md)
+    - [AWS Marketplace Catalog API](./aws_data_exchange/aws-marketplace-catalog-api.md)
 - AWS Data Pipeline
   - Common
     - [Troubleshooting](./aws_data_pipeline/troubleshooting.md)
@@ -598,6 +792,17 @@
     - [Managing indexes](./amazon_open_search_service/managing-indexes.md)
     - [Best practices](./amazon_open_search_service/best-practices.md)
     - [General reference](./amazon_open_search_service/general-reference.md)
+- AWS Glue
+  - Common
+    - [Getting started](./aws_glue/getting-started.md)
+  - Topics
+    - [How it works](./aws_glue/how-it-works.md)
+    - [Data Catalog and crawlers](./aws_glue/data-catalog-and-crawlers.md)
+    - [Job development (interactive sessions)](./aws_glue/job-development-(interactive-sessions).md)
+    - [ETL jobs](./aws_glue/etl-jobs.md)
+    - [Orchestration](./aws_glue/orchestration.md)
+    - [AWS Glue API](./aws_glue/aws-glue-api.md)
+    - [Troubleshooting AWS Glue](./aws_glue/troubleshooting-aws-glue.md)
 - Amazon MSK
   - Common
     - [Getting started](./amazon_msk/getting-started.md)
@@ -620,3 +825,11 @@
     - [Getting Started](./amazon_managed_blockchain/getting-started.md)
   - Topics
     - [Work with Hyperledger Fabric](./amazon_managed_blockchain/work-with-hyperledger-fabric.md)
+## Game Development
+- Amazon GameLift
+  - Common
+  - Topics
+    - [Setting up](./amazon_game_lift/setting-up.md)
+    - [Preparing games for Amazon GameLift](./amazon_game_lift/preparing-games-for-amazon-gamelift.md)
+    - [Managing hosting resources](./amazon_game_lift/managing-hosting-resources.md)
+    - [Viewing game data](./amazon_game_lift/viewing-game-data.md)
